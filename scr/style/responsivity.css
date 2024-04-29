@@ -1,0 +1,64 @@
+@media (max-width: 1440px){
+
+    .receita{
+  margin: 0 auto;
+    }
+
+    .receita .tempo-preparo{
+        width: 0 auto;
+    }
+
+    .receita .nutricao table{
+        max-width: 500px;
+    }
+
+}
+
+@media (max-width: 375px){
+    .receita{
+        width: 300px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .receita .container-foto{
+        padding: 0;
+    }
+
+    .receita .descricao h1{
+        font-size: 15px;
+    }
+
+    .receita .descricao p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .receita .tempo-preparo{
+        font-size: 7px;
+        text-align: justify;
+    }
+
+    .receita .ingredientes h2{
+       font-size: 20px;
+    }
+
+    .receita .instrucoes h2{
+font-size: 22px;
+}
+
+.receita .instrucoes ul li{
+    font-size: 15px;
+}
+
+.receita .nutricao h2{
+    font-size: 20px;
+}
+
+.receita .nutricao p{
+    font-size: 15px;
+}
+
+.receita .nutricao table{
+    width: 100%;
+}
+}
